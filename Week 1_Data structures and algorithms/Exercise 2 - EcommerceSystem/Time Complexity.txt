@@ -1,0 +1,36 @@
+# Time complexity of linear and binary search algorithms
+
+## 1. Linear Search
+In a linear search, the algorithm checks each element one by one.
+### Best-case:
+The element is at the first position.<br>
+Time complexity: O(1)
+### Average-case:
+The element is somewhere in the middle of the list.<br>
+Time complexity: O(n).
+### Worst-case:
+The element is at the end of the list or not present at all.<br>
+Time complexity: O(n)
+### When it's useful:
+When data is unsorted. <br>
+When working with small lists.
+
+## 2. Binary Search (Only works on sorted arrays or lists)
+In binary search, the list is divided into two halves repeatedly.
+### Best-case:
+The element is right in the middle on the first try.<br>
+Time complexity: O(1).
+### Average-case:
+The element is found after a few divisions.<br>
+Time complexity: O(log n).
+### Worst-case:
+The element is found after the maximum number of divisions or not found at all.<br>
+Time complexity: O(log n).
+### When it's useful:
+When data is sorted.<br>
+When working with large lists.
+
+## Comparison
+
+If the array is already sorted, Binary search is the best option. <br>
+Linear search is only advised if the input size is small.
