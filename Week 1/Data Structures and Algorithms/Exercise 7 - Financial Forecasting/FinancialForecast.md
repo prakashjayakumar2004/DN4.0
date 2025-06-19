@@ -1,0 +1,18 @@
+# Recursion
+Recursion is when a function calls itself to solve a smaller part of the same problem.
+
+### It simplifies problems by:<br>
+- Breaking them into smaller parts<br>
+- Avoiding loops in many cases
+
+## Time complexity
+The time complexity of recursion depends on the number of times the function calls itself. <br>
+- If a function calls itself two times then its time complexity is O(2 ^ N). <br>
+- if it calls three times then its time complexity is O(3 ^ N) and so on.
+
+## How to Optimize Recursion?
+Recursion can be slow if it repeats the same calculations.
+
+### To optimize:
+Use Memorization (store results) or <br> switch to an iterative (loop-based) approach
+
