@@ -23,12 +23,9 @@ public class SimpleMathTest {
 
     @Test
     public void testAddition() {
-        // Arrange
         int a = 12;
         int b = 8;
-
         int result = math.add(a, b);
-
         assertEquals(20, result);
     }
 
